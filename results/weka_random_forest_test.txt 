@@ -1,0 +1,51 @@
+=== Model information ===
+
+Filename:     weka_random_forest.model
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 200 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 42
+Relation:     insurance_train
+Attributes:   7
+              age
+              sex
+              bmi
+              children
+              smoker
+              region
+              expenses
+
+=== Classifier model ===
+
+RandomForest
+
+Bagging with 200 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 42 -do-not-check-capabilities
+
+=== Re-evaluation on test set ===
+
+User supplied test set
+Relation:     insurance_train
+Instances:     unknown (yet). Reading incrementally
+Attributes:   7
+
+=== Summary ===
+
+Correlation coefficient                  0.9894
+Mean absolute error                    988.5512
+Root mean squared error               1767.2535
+Total Number of Instances             1069     
+
+
+=== Re-evaluation on test set ===
+
+User supplied test set
+Relation:     insurance_test
+Instances:     unknown (yet). Reading incrementally
+Attributes:   7
+
+=== Summary ===
+
+Correlation coefficient                  0.942 
+Mean absolute error                   2545.9719
+Root mean squared error               4594.7606
+Total Number of Instances              268     
+

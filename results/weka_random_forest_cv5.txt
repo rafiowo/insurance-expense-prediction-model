@@ -1,0 +1,35 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 200 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 42
+Relation:     insurance_train
+Instances:    1069
+Attributes:   7
+              age
+              sex
+              bmi
+              children
+              smoker
+              region
+              expenses
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 200 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 42 -do-not-check-capabilities
+
+Time taken to build model: 0.2 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9146
+Mean absolute error                   2721.8707
+Root mean squared error               4737.7472
+Relative absolute error                 30.9343 %
+Root relative squared error             40.4429 %
+Total Number of Instances             1069     
+

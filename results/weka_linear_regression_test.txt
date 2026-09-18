@@ -1,0 +1,41 @@
+=== Model information ===
+
+Filename:     weka_linear_regression.model
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     insurance_train
+Attributes:   7
+              age
+              sex
+              bmi
+              children
+              smoker
+              region
+              expenses
+
+=== Classifier model ===
+
+
+Linear Regression Model
+
+expenses =
+
+    249.1637 * age +
+    305.4837 * bmi +
+    538.3076 * children +
+  23041.6299 * smoker=yes +
+ -11263.0842
+
+=== Re-evaluation on test set ===
+
+User supplied test set
+Relation:     insurance_test
+Instances:     unknown (yet). Reading incrementally
+Attributes:   7
+
+=== Summary ===
+
+Correlation coefficient                  0.9051
+Mean absolute error                   4198.9889
+Root mean squared error               5993.1301
+Total Number of Instances              268     
+

@@ -1,0 +1,3 @@
+model,evaluation,rows,MAE,RMSE,R2
+Training-mean baseline,Held-out test set,268,9861.798009543023,13612.426168328724,-0.008391982371240836
+Python tuned Random Forest,Held-out test set,268,2420.824690694452,4364.467925667263,0.8963376805479367
